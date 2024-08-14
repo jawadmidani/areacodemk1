@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory - Area Code MK</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2em;
+            font-weight: bold;
+            font-family: 'Lora', serif;
+            font-style: italic;
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 1em;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        .main-section {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .main-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .main-section p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+        .directory-section {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .directory-section img {
+            max-width: 100px;
+            max-height: 100px;
+            width: auto;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px; /* optional, for rounded corners */
+        }
+        .directory-section div {
+            flex: 1;
+        }
+        .directory-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .directory-section p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+        .directory-section a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .directory-section a:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            nav {
+                position: static;
+                transform: none;
+                margin-top: 10px;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+            .directory-section {
+                flex-direction: row;
+                text-align: left;
+            }
+            .directory-section img {
+                margin-bottom: 0;
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Area Code MK</h1>
+        <p>Local Rag MK</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sponsors.html">Our Sponsors</a>
+            <a href="directory.html">Directory</a>
+        </nav>
+    </header>
+    <div class="main-section">
+        <h2>Directory</h2>
+        <p>This page is dedicated to listing all our important contacts and resources. Please check back soon for more information.</p>
+    </div>
+    <section class="directory-section" id="thamesvalleypolice">
+        <img src="thamesvalleypolice-logo1.png" alt="Thames Valley Police Logo">
+        <div>
+            <h2>Thames Valley Police</h2>
+            <p>For emergencies and non-emergencies, visit the Thames Valley Police website.</p>
+            <a href="https://www.thamesvalley.police.uk" target="_blank">Visit Thames Valley Police</a>
+        </div>
+    </section>
+    <section class="directory-section" id="nhs111">
+        <img src="nhs111-logo.png" alt="NHS 111 Logo">
+        <div>
+            <h2>NHS 111</h2>
+            <p>For medical advice and support, visit the NHS 111 website.</p>
+            <a href="https://111.nhs.uk" target="_blank">Visit NHS 111</a>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Sponsors - Area Code MK</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        header {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2em;
+            font-weight: bold;
+            font-family: 'Lora', serif;
+            font-style: italic;
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 1em;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        .main-section {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .main-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .main-section p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+        .sponsor-section {
+            width: 80%;
+            max-width: 800px;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .sponsor-section img {
+            max-width: 100px;
+            max-height: 100px;
+            width: auto;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 5px; /* optional, for rounded corners */
+        }
+        .sponsor-section div {
+            flex: 1;
+        }
+        .sponsor-section h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .sponsor-section p {
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+        .sponsor-section a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .sponsor-section a:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            nav {
+                position: static;
+                transform: none;
+                margin-top: 10px;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+            .sponsor-section {
+                flex-direction: row;
+                text-align: left;
+            }
+            .sponsor-section img {
+                margin-bottom: 0;
+                margin-right: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Area Code MK</h1>
+        <p>Local Rag MK</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sponsors.html">Our Sponsors</a>
+            <a href="directory.html">Directory</a>
+        </nav>
+    </header>
+    <div class="main-section">
+        <h2>Our Sponsors</h2>
+        <p>This page is dedicated to promoting our sponsors. We are grateful for their support and encourage you to check out their services.</p>
+    </div>
+    <section class="sponsor-section" id="printogo">
+        <img src="printogo-logo.png" alt="Printogo Logo">
+        <div>
+            <h2>Printogo</h2>
+            <p>Printogo is a local print shop located at 11 Melrose Avenue, Bletchley, MK3 6PB. They offer a wide range of printing services. Visit them for all your printing needs.</p>
+            <a href="https://linktr.ee/printogo" target="_blank">Visit Printogo</a>
+        </div>
+    </section>
+    <section class="sponsor-section" id="frankmoranmarc">
+        <img src="frankmoranmarc-logo.png" alt="The Frank Moran Centre and MARC Logo">
+        <div>
+            <h2>The Frank Moran Centre and MARC</h2>
+            <p>The Frank Moran Centre and MARC is dedicated to providing community support and resources. Visit their Facebook page to learn more about their services and initiatives.</p>
+            <a href="https://www.facebook.com/frankmoranMARC/" target="_blank">Visit The Frank Moran Centre and MARC</a>
+        </div>
+    </section>
+    <section class="sponsor-section" id="returnmk">
+        <img src="returnmk-logo.png" alt="ReturnMK Logo">
+        <div>
+            <h2>ReturnMK</h2>
+            <p>ReturnMK is dedicated to providing support and resources for the community. Visit their website to learn more about their initiatives.</p>
+            <a href="https://returnmk.org/" target="_blank">Visit ReturnMK</a>
+        </div>
+    </section>
+    <section class="sponsor-section" id="saba">
+        <img src="saba-logo.png" alt="SABA Logo">
+        <div>
+            <h2>SABA</h2>
+            <p>SABA provides support and resources for various community initiatives. Visit their website to learn more about their services.</p>
+            <a href="https://www.sabaltd.org.uk/" target="_blank">Visit SABA</a>
+        </div>
+    </section>
+    <section class="sponsor-section" id="tnlcommunityfund">
+        <img src="tnlcommunityfund-logo.png" alt="The National Lottery Community Fund Logo">
+        <div>
+            <h2>The National Lottery Community Fund</h2>
+            <p>The National Lottery Community Fund supports projects that improve communities and the lives of people within them. Visit their website to learn more.</p>
+            <a href="https://www.tnlcommunityfund.org.uk/" target="_blank">Visit The National Lottery Community Fund</a>
+        </div>
+    </section>
+    <section class="sponsor-section" id="mkcommunityfoundation">
+        <img src="mkcommunityfoundation-logo.png" alt="Milton Keynes Community Foundation Logo">
+        <div>
+            <h2>Milton Keynes Community Foundation</h2>
+            <p>Milton Keynes Community Foundation provides grants and support for local community projects. Visit their website to learn more.</p>
+            <a href="https://www.mkcommunityfoundation.co.uk/" target="_blank">Visit Milton Keynes Community Foundation</a>
+        </div>
+    </section>
+    <section class="sponsor-section" id="westbletchleycouncil">
+        <img src="westbletchleycouncil-logo.png" alt="West Bletchley Parish Council Logo">
+        <div>
+            <h2>West Bletchley Parish Council</h2>
+            <p>West Bletchley Parish Council supports the local community with various initiatives and services. Visit their website to learn more.</p>
+            <a href="https://www.westbletchleycouncil.gov.uk/" target="_blank">Visit West Bletchley Parish Council</a>
+        </div>
+    </section>
+    <section class="sponsor-section" id="blessingscare">
+        <img src="blessingscare-logo.png" alt="Blessings Care Limited Logo">
+        <div>
+            <h2>Blessings Care Limited</h2>
+            <p>Blessings Care Limited provides personalized care services to the community. Visit their website to learn more about their offerings.</p>
+            <a href="https://www.blessingscare.co.uk/" target="_blank">Visit Blessings Care Limited</a>
+        </div>
+    </section>
+    <section class="sponsor-section" id="ittelcosolutions">
+        <img src="ittelcosolutions-logo.png" alt="IT & Telco Solutions Logo">
+        <div>
+            <h2>IT & Telco Solutions</h2>
+            <p>IT & Telco Solutions offers a wide range of IT and telecommunications services. Visit their website to learn more.</p>
+            <a href="https://www.itt.solutions/" target="_blank">Visit IT & Telco Solutions</a>
+        </div>
+    </section>
+</body>
+</html>
